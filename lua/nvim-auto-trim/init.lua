@@ -2,6 +2,7 @@ local M = {}
 
 -- This now only removes trailing whitespaces but also adjust lines
 -- Keep max of one line distance between lines.
+-- PS: You will need to deactivate your code formatters when testing this
 
 function M.setup()
   local api = vim.api
